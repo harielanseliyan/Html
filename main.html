@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Event Scheduler</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <h1>Conference Events</h1>
+    <div class="filters">
+        <button onclick="filterCategory('All')">All</button>
+        <button onclick="filterCategory('Workshop')">Workshop</button>
+        <button onclick="filterCategory('Keynote')">Keynote</button>
+        <button onclick="filterCategory('Panel')">Panel</button>
+
+        <button onclick="filterTime('Morning')">Morning</button>
+        <button onclick="filterTime('Afternoon')">Afternoon</button>
+    </div>
+    <div class="events" id="eventContainer"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
